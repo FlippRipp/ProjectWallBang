@@ -56,9 +56,9 @@ public class BulletHoles : MonoBehaviour
     private void CreateBulletHole(Vector3 pos)
     {
         BulletHole bulletHole = new BulletHole();
-        Vector3 hitOffset = pos - transform.position;
-        bulletHole.Position = hitOffset;
-        hitOffset = new Vector3(hitOffset.z, hitOffset.y, hitOffset.x) + new Vector3(0, 0, 1);
+        Vector3 hitOffset = transform.InverseTransformPoint(pos);
+        hitOffset = new Vector3(-hitOffset.x, -hitOffset.z, hitOffset.y) + new Vector3(0, 0, 1);
+        bulletHole.Position = pos - transform.position;
 
         Transform bullet = Instantiate(bulletInpactPrefab, renderTextureCamera.transform).transform;
         bullet.localPosition = hitOffset;
@@ -73,7 +73,11 @@ public class BulletHoles : MonoBehaviour
         BulletHole bulletHole = bulletHoles[bulletHoles.Count - 1];
         Vector3[] vertices = new Vector3[numberOfEdges * 2];
         int[] triangles = new int[numberOfEdges * 6];
-        GameObject hole = Instantiate(new GameObject("Hole"), transform.position, Quaternion.identity);
+        GameObject hole = new GameObject("Hole");
+        hole.transform.parent = transform;
+        hole.transform.position = transform.position;
+        
+            //Instantiate(, transform.position);
 
         MeshRenderer meshRenderer = hole.AddComponent<MeshRenderer>();
         MeshFilter meshFilter = hole.AddComponent<MeshFilter>();

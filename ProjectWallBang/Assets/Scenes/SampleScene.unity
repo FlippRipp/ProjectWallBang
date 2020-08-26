@@ -784,7 +784,7 @@ MonoBehaviour:
   renderTextureCamera: {fileID: 1812026790}
   bulletInpactPrefab: {fileID: 7365273948651445208, guid: fae175128cfb4df47a78bdfe9c33d2d7, type: 3}
   wallThickness: 0.1
-  numberOfEdges: 20
+  numberOfEdges: 240
   material: {fileID: 2100000, guid: 99df440188c7c7a4caa33ae0e1b03dec, type: 2}
   raidusMod: 1.3
   debugMode: 0
