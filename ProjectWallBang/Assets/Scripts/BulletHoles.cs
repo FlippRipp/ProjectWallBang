@@ -75,24 +75,25 @@ public class BulletHoles : MonoBehaviour
         int[] triangles = new int[numberOfEdges * 6];
         GameObject hole = new GameObject("Hole");
         hole.transform.parent = transform;
-        hole.transform.position = transform.position;
-        
-            //Instantiate(, transform.position);
+        //hole.transform.rotation = transform.rotation;
+        hole.transform.position = transform.position + bulletHole.Position;
+
+        //Instantiate(, transform.position);
 
         MeshRenderer meshRenderer = hole.AddComponent<MeshRenderer>();
         MeshFilter meshFilter = hole.AddComponent<MeshFilter>();
         Mesh mesh = meshFilter.mesh;
         
-        Vector3 bulletHoleEdge = bulletHole.Position + bulletHole.Radius * transform.forward;
+        //Vector3 bulletHoleEdge = bulletHole.Position + bulletHole.Radius * transform.forward;
         int j = 0;
         for (int i = 0; i < 359; i += 360 / numberOfEdges)
         {
             Vector3 radiusPoint = Quaternion.AngleAxis(i, transform.up) * (bulletHole.Radius * raidusMod * transform.forward);
 
-             vertices[j++] = bulletHole.Position +  radiusPoint;
-             vertices[j++] = bulletHole.Position +  radiusPoint + -transform.up * 0.1f;
-            debugPos.Add(bulletHole.Position + radiusPoint);
-            debugPos.Add(bulletHole.Position + radiusPoint + -transform.up * 0.1f);
+             vertices[j++] = -radiusPoint;
+             vertices[j++] = -radiusPoint - transform.up * 0.1f;
+            debugPos.Add(bulletHole.Position - radiusPoint);
+            debugPos.Add(bulletHole.Position - radiusPoint - transform.up * 0.1f);
         }
 
         for (int i = 0; i < numberOfEdges; i++)
