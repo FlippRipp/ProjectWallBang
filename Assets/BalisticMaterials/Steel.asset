@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f7f3489b13acd47a2e592877a9a3f1, type: 3}
   m_Name: Steel
   m_EditorClassIdentifier: 
-  hitPoints: 50
-  damageAbsorption: 50
+  hitPoints: 10
+  damageAbsorption: 7
   hitSound: {fileID: 8300000, guid: f229a9f00cf00094497647b65489f7ee, type: 3}

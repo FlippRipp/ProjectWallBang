@@ -153,9 +153,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points:
-  - {x: 1.06, y: 2.54}
-  - {x: 5.83, y: 1.4}
-  - {x: -0.23, y: 2.19}
+  - {x: 2.52, y: 2.54}
+  - {x: 5.83, y: 2.05}
+  - {x: -0.23, y: 2.03}
   radius: 1.6
   pointsPerCircle: 20
 --- !u!4 &500196589

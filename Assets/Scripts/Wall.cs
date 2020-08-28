@@ -19,19 +19,25 @@ public class Wall : MonoBehaviour
     public void OnHit(ref float damageLeft)
     {
         audioSource.Play();
+        float healthAtStart = hitpoints;
+
         if (damageLeft < wallMaterial.damageAbsorption)
         {
             hitpoints -= damageLeft;
-            damageLeft = 0;
         }
         else
         {
             hitpoints -= wallMaterial.damageAbsorption;
+        }
+
+
+        if (hitpoints > 0)
+        {
             damageLeft -= wallMaterial.damageAbsorption;
         }
-        
-        if (hitpoints <= 0)
+        else
         {
+            damageLeft -= healthAtStart;
             wallModel.SetActive(false);
         }
     }

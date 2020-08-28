@@ -32,8 +32,13 @@ public class WallPercingShot : MonoBehaviour
                 float damageLeft = bulletDamage;
                 for (int i = 0; i < hitObjects.Length; i++)
                 {
+                    if(hitObjects[i].layer != LayerMask.NameToLayer("Wall")) return;
                     Debug.Log(Vector3.Distance(hitObjects[i].transform.position, transform.position));
-                    hitObjects[i].transform.parent.gameObject.GetComponent<Wall>().OnHit(ref damageLeft);
+                    Wall wall = hitObjects[i].transform.parent.gameObject.GetComponent<Wall>();
+                    if (wall)
+                    {
+                        wall.OnHit(ref damageLeft);
+                    }
                     if(damageLeft <= 0) break;
                 }
             }

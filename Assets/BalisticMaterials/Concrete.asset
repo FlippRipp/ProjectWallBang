@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f7f3489b13acd47a2e592877a9a3f1, type: 3}
   m_Name: Concrete
   m_EditorClassIdentifier: 
-  hitPoints: 50
+  hitPoints: 10
   damageAbsorption: 10
   hitSound: {fileID: 8300000, guid: d6432be042aa1c248b7364ba7db6d9c9, type: 3}

@@ -4,15 +4,15 @@ using System.Runtime.InteropServices;
 using UnityEngine;
 using  UnityEditor;
 
-[CustomEditor(typeof(PointsOnAreaBorder))]
+[CustomEditor(typeof(MeshAroundAreaBorder))]
 
 public class PointOnAreaBorderEditor : Editor
 {
-    PointsOnAreaBorder pointsOnAreaBorder;
+    MeshAroundAreaBorder meshAroundAreaBorder;
 
     private void OnEnable()
     {
-        pointsOnAreaBorder = (PointsOnAreaBorder) target;
+        meshAroundAreaBorder = (MeshAroundAreaBorder) target;
         
     }
 }
