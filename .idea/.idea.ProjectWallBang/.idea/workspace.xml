@@ -20,19 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcfb5681-442a-4567-bf98-1db74fe487a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectWallBang/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectWallBang/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectWallBang/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectWallBang/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectWallBang/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectWallBang/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectWallBang/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectWallBang/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BalisticMaterials/Concrete.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BalisticMaterials/Concrete.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BalisticMaterials/Steel.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BalisticMaterials/Steel.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CirclePoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CirclePoint.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Editor/PointOnAreaBorderEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/PointOnAreaBorderEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PointsOnAreaBorder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MeshAroundAreaBorder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PointsOnAreaBorder.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MeshAroundAreaBorder.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Wall.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Wall.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WallPercingShot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WallPercingShot.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +109,7 @@
       <workItem from="1598448897832" duration="4934000" />
       <workItem from="1598463520173" duration="5815000" />
       <workItem from="1598510060048" duration="20003000" />
-      <workItem from="1598596952888" duration="20304000" />
+      <workItem from="1598596952888" duration="20720000" />
     </task>
     <servers />
   </component>

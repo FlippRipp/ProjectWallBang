@@ -20,7 +20,6 @@
       <Path>Library</Path>
       <Path>Logs</Path>
       <Path>ProjectWallBang</Path>
-      <Path>Temp</Path>
       <Path>UserSettings</Path>
       <Path>obj</Path>
     </explicitExcludes>
