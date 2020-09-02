@@ -20,7 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99d39990-b0a0-4905-9cce-64bc94401146" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../SpaceShooter/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../SpaceShooter/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ShootingThroughWalls/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ShootingThroughWalls/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ShootingThroughWalls/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ShootingThroughWalls/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ShootingThroughWalls/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ShootingThroughWalls/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ShootingThroughWalls/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ShootingThroughWalls/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BulletHoleAlpha 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BulletHoleAlpha 2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BulletHoles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BulletHoles.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CirclePoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CirclePoint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MeshAroundAreaBorder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MeshAroundAreaBorder.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,19 +37,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/CutHole.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TransformPointTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletHoles.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/AlphaMask.shader" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/CutHole.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BulletHoles.cs" />
         <option value="$PROJECT_DIR$/Assets/AlphaMask.shader" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TransformPointTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CirclePoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BulletHoles.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MeshAroundAreaBorder.cs" />
       </list>
     </option>
   </component>
@@ -96,6 +107,9 @@
       <workItem from="1598366051272" duration="3565000" />
       <workItem from="1598369908478" duration="2604000" />
       <workItem from="1598372525612" duration="2506000" />
+      <workItem from="1598853403494" duration="218000" />
+      <workItem from="1598854372946" duration="18484000" />
+      <workItem from="1598941917424" duration="7518000" />
     </task>
     <servers />
   </component>
@@ -207,14 +221,7 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/CutHole.cs</url>
           <line>40</line>
-          <properties documentPath="D:\SpaceShooter\SpaceShooter\ShootingThroughWalls\Assets\CutHole.cs" initialLine="41">
-            <startOffsets>
-              <option value="1062" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1097" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="D:\SpaceShooter\SpaceShooter\ShootingThroughWalls\Assets\CutHole.cs" initialLine="41" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

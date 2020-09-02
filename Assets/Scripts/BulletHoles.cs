@@ -23,19 +23,20 @@ public class BulletHoles : MonoBehaviour
 
     private List<Vector3> debugPos = new List<Vector3>();
 
+    private MeshAroundAreaBorder meshAroundAreaBorder;
+
 
     private Camera mainCamera;
     // Start is called before the first frame update
     private void Awake()
     {
         mainCamera = Camera.main;
+        meshAroundAreaBorder = transform.parent.GetComponent<MeshAroundAreaBorder>();
     }
 
     // Update is called once per frame
     private void Update()
     {
-        
-
         if (Input.GetButtonDown("Fire1"))
         {
             RaycastHit hit;
@@ -56,13 +57,18 @@ public class BulletHoles : MonoBehaviour
         Vector3 hitOffset = transform.InverseTransformPoint(pos);
         hitOffset = new Vector3(-hitOffset.x, -hitOffset.z, hitOffset.y) + new Vector3(0, 0, 1);
         bulletHole.Position = pos - transform.position;
-
-        Transform bullet = Instantiate(bulletInpactPrefab, renderTextureCamera.transform).transform;
-        bullet.localPosition = hitOffset;
-        bulletHole.Radius = bullet.localScale.x;
+        
+        bulletHole.Radius = bulletInpactPrefab.transform.localScale.x;
         bulletHoles.Add(bulletHole);
+        meshAroundAreaBorder.radius = bulletHoles[bulletHoles.Count - 1].Radius;
 
-        GenerateBarrier();
+        if (!meshAroundAreaBorder.CheckIntersectionWithPoints((Vector2)bulletHoles[bulletHoles.Count - 1].Position, -1))
+        {
+            Transform bullet = Instantiate(bulletInpactPrefab, renderTextureCamera.transform).transform;
+            bullet.localPosition = hitOffset;
+            meshAroundAreaBorder.points.Add(bulletHoles[bulletHoles.Count - 1].Position);
+            meshAroundAreaBorder.CreateMeshBarrier();
+        }
     }
 
     private void GenerateBarrier()
